@@ -6,7 +6,7 @@ var grid = function() { //generate the sketch pad grid
 	var sq = parseInt(r);
 	var hw = 900/sq; //calculate pixel size against un-changing container div size.
 	var divsToAppend = "";
-		for (i=1; i<((sq*sq)+1); i++) { //puts divs in a giant variable.
+		for (i=1; i<((sq*sq)+1); i++) { //loop puts all the divs in a giant variable.
 	    	divsToAppend += '<div class="sketch" style="height:'+hw+'px; width:'+hw+'px;"></div>';
 	    }
 	$('.container').append(divsToAppend); //vomits divs into container.
