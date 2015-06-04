@@ -21,8 +21,3 @@ button {
 	display:inline-block;
 	float:left;
 }
-
-.highlight {
-	background-color:red;
-	opacity:1;
-}
